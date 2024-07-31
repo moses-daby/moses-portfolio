@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+h4,
+.heading-text {
+  text-transform: capitalize;
+}
+
+/* nav */
+
+nav {
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+ 
+}
+
+header,
+.balance-logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.balance-logo {
+  border-radius: 50px;
+  border: 2px solid green;
+  padding: 5px;
+}
+
+.navigation,
+.socials {
+  color: rgb(19, 19, 205);
+  text-decoration: none;
+  margin-left: 5px;
+  transition: all 0.5s;
+}
+.navigation:hover {
+  color: black;
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.socials:hover {
+  color: white;
+  background: linear-gradient(white, black);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+/* footer */
+footer {
+  display: grid;
+  place-items: center;
+  background-color: black;
+  min-height: 60px;
+  padding: 10px;
+}
+
+
+/* main contents */
+main {
+  min-height: 100vh;
+}
+
+.main-container {
+  min-height: 600px;
+}
+
+.home {
+  background: linear-gradient(rgba(0, 0, 0, 0.399), rgba(0, 0, 0, 0.497)),
+    url("./assets/images/moses.jpg") no-repeat center;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.main-one-wrapper {
+  display: grid;
+  gap: 20px;
+  color: white;
+}
+
+.name {
+  color: seagreen;
+  font-size: 1.5rem;
+}
+
+.hero-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.description {
+  max-width: 400px;
+}
+
+.hero-button {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 10px;
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.about,
+.services,
+.experience,
+.project{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding: 40px 10px;
+}
+.heading-textcontact-text{
+ font-size: 30px;
+ letter-spacing: 5px;
+}
+.underlineexperience-underline{
+  margin-bottom: 200px
+}
+
+.heading-text {
+  font-weight: bold;
+  font-size: x-large;
+  letter-spacing: 5px;
+}
+
+.underline-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.underline {
+  width: 50px;
+  height: 4px;
+  background-color: black;
+  border-radius: 99px;
+}
+.moses-card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.download {
+  width: fit-content;
+  padding: 10px 20px;
+  border: 0;
+  background-color: seagreen;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.download:hover {
+  opacity: 0.5;
+  background-color: red;
+}
+.about-image {
+  max-width: 350px;
+}
+.moses-card-wrapper > div {
+  max-width: 350px;
+}
+
+/* Services starts here */
+
+.services {
+  color: #fff;
+}
+
+.card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card-icon-wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.service-card h4 {
+  margin-bottom: 10px;
+}
+
+.services-underline {
+  background-color: rgb(181, 181, 181);
+}
+
+/* Experience */
+
+.experience img {
+  width: 100%;
+}
+
+.card-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 10px 0;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.badge {
+  background-color: #31c39e;
+  border-radius: 5px;
+  padding: 3px 5px;
+  font-size: small;
+  color: #fff;
+}
+.main-container-projects{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  padding: 40px,10px;
+}
+.project-image{
+  
+   display: flex;
+   flex-basis: 100%;
+   flex-wrap: wrap;
+   gap: 20px;
+
+  
+}
+.main-container-contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+;
+}
+.info{
+display: flex;
+justify-content: center;
+ justify-content:space-evenly;
+align-content: center;
+color: #040303;
+text-decoration: none;
+margin: 20px;
+gap: 30px;
+font-size:px;
+}
+.af{ 
+  text-transform: none;
+  color: #31c39e;
+  margin: 10px;
+}
+.form{
+  padding: 5px;
+ background-color:rgb(53, 17, 17) ;
+ margin: 10px;
+}
+
+.main-container:nth-of-type(3) {
+  background-color: #31c39e;
+}
+
+.main-container:nth-of-type(5) {
+  background-color: brown;
+}
+.main-container:nth-of-type(6) {
+  background-color: yellow;
+}
+.main-container-projects{
+  display: flex;
+  justify-content: center;
+}
